@@ -1,0 +1,222 @@
+*{
+    margin: 0; padding: 0; 
+    font-family: 'Poppins', sans-serif;
+    border: none; outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    box-sizing: border-box;
+   
+
+}
+
+/* Header Section starts from here  */
+
+.header{
+    width: 100%;
+    background: linear-gradient(to left, #006666 7%, #ffffff 99.9%);
+    padding: 8px 9%;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo a img{
+    width: 80px;
+    height: auto;
+}
+
+.menu a{
+    color: white;
+    font-size: 20px;
+    margin: 0 12px;
+    line-height: 65px;
+}
+.menu a:hover{
+    color: #29d9d5;
+}
+.menu-btn{
+    margin-top: 16px;
+}
+
+.menu-btn button{
+   background: transparent;
+   color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 12px;
+    border: 2px solid #29d9d5;
+}
+.menu-btn button:hover{
+    background: linear-gradient(45deg, red, #15ab71);
+}
+/* Header Section ends from here */
+
+
+/* banner section starts from here */
+
+.banner{
+    width: 100%;
+}
+.banner-content{
+    display: flex;
+    flex-basis: 50%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+
+.banner-right img{
+    width: 100%;
+    height: auto;
+}
+
+.banner-left h1{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: #29d9d5;
+    line-height: 45px;
+    padding-left: 50px;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.banner-left p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-bottom: 12px;
+}
+
+.banner-left button{
+    margin-left: 50px;
+    padding-left: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 3px solid #29d9d5;
+    border-radius: 12px;
+    background-color: #333;
+    color: white;
+}
+.banner-left button:hover{
+   background-color: #15ab71;
+}
+
+/* banner section starts from here */
+
+.about{
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.about-content h2{
+	color: #15ab71;
+	font-size: 28px;
+    line-height: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.about-content p{
+	font-size: 14px;
+    margin-bottom: 30px;
+    line-height: 28px;
+    color: #333;
+}
+
+.address-content{
+	background-color: #15ab71;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 70px;
+    padding-left: 70px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.address-content{
+	display: flex;
+}
+.address-left{
+	flex-basis: 50%;
+}
+.address-right{
+	flex-basis: 50%;
+}
+
+.address-left h3, .address-right h3{
+	font-size: 16px;
+	color: white;
+    margin-bottom: 20px;
+    line-height: 10px;
+}
+.address-left p, .address-right p{
+	color: white;
+	font-size: 16px;
+	margin-bottom: 16px;
+    line-height: 15px;
+    width: 80%;
+}
+    /* banner section ends from here */
+
+    /* Footer section starts from here */
+
+.footer{
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.footer-content{
+    background-color: #15ab71;
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+
+.footer-content{
+	display: flex;
+}
+
+.footer-1, .footer-2, .footer-3, .footer-4{
+	flex-basis: 25%;
+}
+
+.footer-1 h5, .footer-2 h5, .footer-3 h5, .footer-4 h5{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.footer-1 p, .footer-2 p, .footer-3 ul li, .footer-4 ul li{
+    font-size: 14px;
+    list-style: none;
+    font-weight: 300;
+    line-height: 24px;
+    
+}
+
+.footer-1 p, .footer-2 p{
+    width: 80%;
+}
+
+.footer-3 ul li:hover, .footer-4 ul li a:hover{
+   color : #333;
+}
+/* Footer section ends here */
